@@ -1,15 +1,20 @@
 {
   "name": "dot-cypress-automation",
   "version": "1.0.0",
+  "type": "module",
   "description": "cypress + javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.17.0"
+    "cypress": "^13.17.0",
+    "eslint": "^8.57.1",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-cypress": "^4.1.0"
   }
 }

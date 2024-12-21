@@ -1,0 +1,22 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true,
+      "cypress/globals": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:cypress/recommended"
+    ],
+    "plugins": ["cypress"],
+    "rules": {
+      "semi": ["error", "never"],
+      "indent": ["error", 2],
+      "no-mixed-spaces-and-tabs": "error",
+      "space-before-function-paren": ["error", "always"],
+      "object-curly-spacing": ["error", "always"]
+    },
+    "ignorePatterns": ["node_modules/", "cypress/videos/", "cypress/screenshots/"]
+  }
+  
